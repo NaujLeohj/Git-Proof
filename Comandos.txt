@@ -1,0 +1,24 @@
+#Para inicializar un repositorio
+git init
+git config --global init.deafaultBranch main
+
+
+
+cd -ChangeDirectory
+mkdir -MakeDirectory
+rmdir -removeDirectory
+rm -RemoveAnything
+ls -ListOFFielOnTheRout
+git config user.name -KnowYourUserName
+git config user.email -KnowYourGidHubEmail
+
+
+#Cambiar el mensaje del ultimo commit
+git commit --amend
+
+#Elimina el ultimo commit pero no los cambios en el archivo
+#osea que regresa al area de (staged) listo para ser commited(commiteado)
+git reset --soft HEAD~1
+
+#no mantiene los cambios 
+git reset --hard HEAD~1
