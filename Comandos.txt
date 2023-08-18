@@ -11,6 +11,8 @@ rm -RemoveAnything
 ls -ListOFFielOnTheRout
 git config user.name -KnowYourUserName
 git config user.email -KnowYourGidHubEmail
+git log --oneline
+git log -p -muestra los cambios echos en ese commit
 
 
 #Cambiar el mensaje del ultimo commit
@@ -22,3 +24,32 @@ git reset --soft HEAD~1
 
 #no mantiene los cambios 
 git reset --hard HEAD~1
+
+#Crear una rama
+git branch "name-branch"
+#Para mirar las ramas que tengo
+git branch
+#Para cambiar de rama
+git checkout "nombre de la rama a la que quiero ir"
+
+#Crear y cambiar rama al mismo tiempo
+git checkout -b "name-rama"
+
+#Cambiar el nombre de una rama
+#Devo estar en la rama a la que quiero cambiar el nombre
+git branch -m "new-name"
+#cambiar nombre desde cualquier rama
+git branch -m "now-name" "new-name"
+
+#Eliminar una rama
+git branch -d "name-branch"
+
+
+
+
+
+
+
+
+
+
