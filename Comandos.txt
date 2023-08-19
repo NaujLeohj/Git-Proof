@@ -45,11 +45,15 @@ git branch -m "now-name" "new-name"
 git branch -d "name-branch"
 
 
+#Combinar ramas desde main
+git merge "branch-name"
+
+git merge --continue -cuando hay conflictos
 
 
-
-
-
+#Clonar un repositorio
+git clone "HTTPS de GitHub"
+-deves estar enla ruta(Carpeta) donde clonaras el repositorio
 
 
 
