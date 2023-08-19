@@ -55,5 +55,5 @@ git merge --continue -cuando hay conflictos
 git clone "HTTPS de GitHub"
 -deves estar enla ruta(Carpeta) donde clonaras el repositorio
 
-
-
+#Actualizar mi repositorio remoto si alguien iso cambion en el origen(origin)
+git pull origin main
