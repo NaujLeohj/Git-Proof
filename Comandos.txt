@@ -3,7 +3,7 @@ git init
 git config --global init.deafaultBranch main
 
 
-
+code . -Abre VSCode
 cd -ChangeDirectory
 mkdir -MakeDirectory
 rmdir -removeDirectory
@@ -55,5 +55,39 @@ git merge --continue -cuando hay conflictos
 git clone "HTTPS de GitHub"
 -deves estar enla ruta(Carpeta) donde clonaras el repositorio
 
+#Enviar cambios a GitHub
+git push origin main
+
 #Actualizar mi repositorio remoto si alguien iso cambion en el origen(origin)
 git pull origin main
+
+
+¿Que es Fork(Bifurcar)?
+-Es copear(clonar) un repositorio de una cuenta ajena y subirlo a nuestra cuenta
+asi podremos trabajar y hacer cambios a ese repositorio sin afectar al original
+Existe un boton para esto en GitHub
+
+¿Que es un Pull Request?
+-Pull(jalar) Request(Pedir) es una petición para hacer "Merge" de una rama con otra
+Es pedir permiso para subir los cambios de un Fork(Bifurcación) al repositorio Original
+
+origin ----> fork   Fork(Bifurcar)
+origin <---- fork   Pull Request()
+
+La mejor manera para hacer un Pull Request es
+crear una rama nueva de el Fork y hacer el pull desde esa rama
+asi si tienes errores en esa rama puedes volver a la rama main y no pasa nada
+pero si trabajas directamente en main tendras que borrar todo o hacer un fork nuevamente
+
+
+#Issues
+como no puedo ir clonando y añadiendo funcionalidades a proyectos que no me lo piden
+para eso estan lo Issues, la manera correcta de hacer cambios y añadir funcionalidad a un repositorio en github es a travez de los Issues
+
+Los Issues son tareas asignadas por el/los propietario/s del proyecto(repositorio)
+Si ves que puedes resolver algun Issues deveras hacer un Fork crear una nueva rama y aí podras trabajar el cambio que te pide el Issue
+luego aras el Pull al Fork y desde el Fork hacer el Pull-Request para que el repositorio(Raiz,Padre) acepte tu cambio o no.
+
+
+
+Los GOOD FIRST ISSUES son contribuciones que puedes hacer en repositorios para practicar (para ganar experiencia)
